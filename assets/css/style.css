@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
-
+@import "~/font-awesome/css/font-awesome";
 :root{
     --dark: #2b2d42;
     --light: #adb5bd;

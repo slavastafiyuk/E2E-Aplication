@@ -10,7 +10,7 @@ $("#update_user").submit(function(event){
         data[n['name']]=n['value']
     })
     var request = {
-        "url" : `http://localhost:8081/api/users/${data.id}`,
+        "url" : `http://localhost:8080/api/users/${data.id}`,
         "method" : "PUT",
         "data" : data
     }
@@ -26,7 +26,7 @@ if(window.location.pathname == "/"){
     $ondelete.click(function(){
         var id = $(this).attr("data-id")
         var request = {
-            "url" : `http://localhost:8081/api/users/${id}`,
+            "url" : `http://localhost:8080/api/users/${id}`,
             "method" : "DELETE"
         }
         if(confirm("Do you really want to delete this record?")){
