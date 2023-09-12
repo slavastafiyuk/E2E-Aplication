@@ -3,5 +3,5 @@ services:
   app:
     image: my-node-app
     ports:
-      - 13000:8081
+      - 8080:8080
       
